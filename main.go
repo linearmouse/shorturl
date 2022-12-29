@@ -21,6 +21,11 @@ func main() {
 			return
 		}
 
+		if !(r.Method == http.MethodHead || r.Method == http.MethodGet) {
+			http.Error(w, http.StatusText(http.StatusMethodNotAllowed), http.StatusMethodNotAllowed)
+			return
+		}
+
 		http.Redirect(w, r, target, http.StatusTemporaryRedirect)
 	})
 
