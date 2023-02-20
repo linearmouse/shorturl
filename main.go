@@ -12,8 +12,8 @@ var urls = map[string]string{
 	"/github":                   "https://github.com/linearmouse/linearmouse",
 	"/accessibility-permission": "https://github.com/linearmouse/linearmouse/blob/main/ACCESSIBILITY.md",
 	"/disable-pointer-acceleration-and-speed": "https://github.com/linearmouse/linearmouse/discussions/201",
-	"/bug-report":      "https://github.com/linearmouse/linearmouse/issues/new?template=bug_report.yml&title=%5BBUG%5D+&labels=bug",
-	"/feature-request": "https://github.com/linearmouse/linearmouse/issues/new?template=feature_request.yml&title=%5BFeature%5D+&labels=enhancement",
+	"/bug-report":      "https://github.com/linearmouse/linearmouse/issues/new?template=bug_report.yml&labels=bug",
+	"/feature-request": "https://github.com/linearmouse/linearmouse/issues/new?template=feature_request.yml&labels=enhancement",
 	"/donate":          "https://github.com/sponsors/linearmouse",
 }
 
